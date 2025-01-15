@@ -1,3 +1,19 @@
+// locomotive js github code 
+const scroll = new LocomotiveScroll({
+    el: document.querySelector("#main"),
+    // smooth: true
+    smooth: false
+
+});
+// document.addEventListener("DOMContentLoaded", () => {
+//     const scroll = new LocomotiveScroll({
+//         el: document.querySelector("#main"),
+//         smooth: true,
+//     });
+// });
+// console.log("LocomotiveScroll initialized");
+
+// gsap using for animation
 function videoconAnimation(){
     var videocon = document.querySelector("#video-container")
 var playbtn = document.querySelector("#play")
@@ -45,3 +61,5 @@ function loadinganimation(){
     })
 }
 loadinganimation()
+
+//
