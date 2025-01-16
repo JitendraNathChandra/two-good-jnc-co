@@ -82,6 +82,10 @@ html, body{
     width: 30%;
     /* background-color: aqua; */
     overflow: hidden;
+    position: relative;
+    display: flex; /* display: flex; for animation (locmotive) */
+    align-items: center;
+    justify-content: center;
 }
 
 #page2 .elem img{
@@ -90,11 +94,32 @@ html, body{
     object-fit: cover;
     scale: 1.1;
 }
+#page2 .elem .img-details{
+    height: 50px;
+    border-radius: 50px;
+    width: 70%;
+    position: absolute;
+    z-index: 9;
+    /* for showing the img */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    background-color: rebeccapurple;
+}
+
+/* #page2 .elem .img-details:hover{
+    height: 200px;
+} */
 
 #page3{
-    height: 100vh;
+    min-height: 120vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #F7F7F7;
+}
+.child{
+    height: 55vh;
+    width: 40vw;
+    background-color: red;
 }
 
 
@@ -160,10 +185,19 @@ html, body{
         margin-bottom: 3vw;
     }
     
-    #page2 .elem img{
+    /* #page2 .elem img{
         height: 100%;
         width: 100%;
         object-fit: cover;
         scale: 1.1;
+    } */
+
+    #page2 .elem .img-details{
+        height: 40px;
+        border-radius: 50px;
+        width: 70%;
+        position: absolute;
+        z-index: 9;
+        background-color: rebeccapurple;
     }
 }
