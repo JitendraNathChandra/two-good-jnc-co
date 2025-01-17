@@ -15,6 +15,29 @@ html, body{
     width: 100%;
 }
 
+body{
+    background-color: #F7F7F7;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: bisque;
+    position: fixed;
+    z-index: 99;
+}
+
+#cursor{
+    height: 180px;
+    width: 180px;
+    background-color: rgb(14, 90, 148);
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%) scale(0);
+    /* transform: scale(0); */
+
+}
+
 #main{
     height: 100%;
 }
@@ -115,16 +138,27 @@ html, body{
     min-height: 120vh;
     width: 100%;
     position: relative;
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 .child{
-    height: 55vh;
-    width: 40vw;
-    background-color: red;
+    height: 54vh;
+    width: 38vw;
+    /* background-color: red;
+    border: 2px solid black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+
+}
+
+.child img{
+    height: 80%;
 }
 
 
