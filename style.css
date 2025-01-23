@@ -223,6 +223,43 @@ body{
     flex-wrap: wrap;
 }
 
+#about{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 50px;
+    color: #F7F7F7;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+    width: 100%;
+    background-color: #333;
+}
+
+#textabout{
+    /* width: 80%; */
+    width: 25rem;
+
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+}
+#textabout p{
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#about img{
+    /* width: 15vw; */
+    width: 200px;
+}
+
+
+
+
+
 
 @media (max-width:600px){
     /* body{
