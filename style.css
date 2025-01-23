@@ -223,18 +223,6 @@ body{
     flex-wrap: wrap;
 }
 
-.product{
-    /* height: 54vh;
-    width: 38vw; */
-    /* background-color: red;
-    border: 2px solid black; */
-    /* position: relative; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover; */
-
-}
 
 @media (max-width:600px){
     /* body{
