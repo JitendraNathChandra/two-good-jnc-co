@@ -251,9 +251,57 @@ body{
     margin-bottom: 30px;
 }
 
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: #F7F7F7;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#subscribe{
+    color: #fff;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: #333;
+}
+
+#subscribe h5{
+    text-transform: uppercase;
+    opacity: .6;
+}
+
+#subscribe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 #about img{
     /* width: 15vw; */
     width: 200px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: red;
+}
+
+#footer-left{
+    display: flex;
+    gap: 20px;
+}
+
+#footer a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #F7F7F7;
+    text-decoration: none;
 }
 
 
