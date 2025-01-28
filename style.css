@@ -283,12 +283,17 @@ body{
     width: 200px;
 }
 
+.avatar-user{
+    border-radius: 50%;
+
+}
+
 #footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 30px;
-    background-color: red;
+    background-color: #F7F7F7;
 }
 
 #footer-left{
@@ -300,7 +305,7 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
-    color: #F7F7F7;
+    color: #0f0101;
     text-decoration: none;
 }
 
